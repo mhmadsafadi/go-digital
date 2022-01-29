@@ -1,0 +1,35 @@
+
+.counter-container{
+  margin: auto;
+  padding: 20px 30px;
+  width: fit-content;
+  text-align: center;
+  background-color: #9a91cfb2;
+  color: #fff
+}
+
+.item-counter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-counter button{
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: 1px solid #888888;
+    border-radius: 5px;
+}
+
+.red{
+    background-color: #d82323;
+    padding: 5px;
+}
+.green{
+    background-color: #38d823;
+    padding: 5px;
+}
+.yellow{
+    background-color: #d8bd23;
+    padding: 5px;
+}
